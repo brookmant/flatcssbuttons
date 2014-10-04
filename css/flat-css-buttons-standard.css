@@ -107,6 +107,14 @@ a.fl {text-decoration: none !important;display: inline-flex;color:#fff;}
 a.fl:visited, a.fl:hover{color:#fff;}
 /*default Buttons*/
 
+.fl-default.fl-rd-sq {
+    border-radius: 10px !important;
+}
+
+.fl-default.fl-ovl {
+  border-radius: 20px !important;
+}
+
 .fl-default {
   border-width: 1px;
   border-color: rgb(81, 167, 167);
@@ -114,6 +122,9 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background:rgb(97,156,156);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5781a1', endColorstr='#4b7595');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5781a1, endColorstr=#4b7595)";
 }
 
 .fl-default:hover {
@@ -123,6 +134,9 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(214,240,175) 0%, rgb(176,202,137) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(214,240,175) 0%, rgb(176,202,137) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(214,240,175) 0%, rgb(176,202,137) 180%);
+  background:rgb(214, 240, 175);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6f0af', endColorstr='#b0ca89');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#d6f0af, endColorstr=#b0ca89)";
 }
 
 .fl-default:active {
@@ -136,6 +150,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(97, 156, 156);
 }
 
 .fl-default:visited {
@@ -149,6 +164,8 @@ a.fl:visited, a.fl:hover{color:#fff;}
   box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+    background: rgb(97, 156, 156);
+
 }
 /******* Colors *****/
 /* Dark */
@@ -160,6 +177,8 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background:  rgb(51, 49, 52);
+
 }
 .fl-dark:hover {
   border-width: 1px;
@@ -168,6 +187,8 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(54,60,75) 0%, rgb(17,16,18) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(54,60,75) 0%, rgb(17,16,18) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(54,60,75) 0%, rgb(17,16,18) 180%);
+    background: rgb(54, 60, 75);
+
 }
 
 .fl-dark:active {
@@ -182,6 +203,8 @@ a.fl:visited, a.fl:hover{color:#fff;}
     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+    background: rgb(51, 49, 52);
+
 }
 .fl-dark:visited {
   border-width: 1px;
@@ -191,9 +214,11 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
-    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+ background: rgb(51, 49, 52);
+
 }
 
 .fl-blue {
@@ -203,6 +228,8 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background: rgb(95, 137, 169);
+
 }
 .fl-blue:hover {
   border-width: 1px;
@@ -211,6 +238,8 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(148,211,194) 0%, rgb(110, 173,155) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(148,211,194) 0%, rgb(110, 173,155)  180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+   background: rgb(95, 137, 169);
+
 }
 
 
@@ -225,6 +254,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background:rgb(95,137,169);
 }
 
 .fl-blue:active {
@@ -238,6 +268,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(95,137,169);
 }
 
 .fl-gray {
@@ -247,6 +278,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198)180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+  background: rgb(173,178,184);
 }
 
 .fl-gray:hover {
@@ -256,6 +288,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(225,225,225) 0%, rgb(225,224,223) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(225,225,225) 0%, rgb(225,224,223) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(225,225,225) 0%, rgb(225,224,223) 180%);
+  background: rgb(225,225,225);
 }
 .fl-gray:visited {
   border-width: 1px;
@@ -267,6 +300,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(173,178,184);
 }
 
 .fl-gray:active {
@@ -280,6 +314,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
      box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(173,178,184);
 }
 
 .fl-white {
@@ -290,6 +325,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255)180%);
+  background: rgb(246, 243,243);
 }
 
 .fl-white:hover {
@@ -300,6 +336,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(255,255,255) 0%, rgb(255,255,255) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(255,255,255) 0%, rgb(255,255,255) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(255,255,255) 0%, rgb(255,255,255) 180%);
+  background:  rgb(255,255,255);
 }
 
 .fl-white:visited {
@@ -313,6 +350,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
       box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background:rgb(246, 243,243);
 }
 
 .fl-white:active {
@@ -326,6 +364,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
      box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(246, 243,243);
 }
 
 .fl-red {
@@ -335,6 +374,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background: rgb(223,31,45);
 }
 
 .fl-red:hover {
@@ -344,6 +384,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(253,114,99) 0%, rgb(253,151,18) 180%);
   background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(253,114,99) 0%, rgb(253,151,18) 180%);
   background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(253,114,99) 0%, rgb(253,151,18) 180%);
+  background: rgb(253,114,99);
 }
 .fl-red:visited {
   border-width: 1px;
@@ -356,6 +397,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(223,31,45);
 }
 
 .fl-red:active {
@@ -369,6 +411,7 @@ a.fl:visited, a.fl:hover{color:#fff;}
      box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background:  rgb(223,31,45);
 }
 
 

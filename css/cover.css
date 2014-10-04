@@ -18,6 +18,7 @@ a:hover {
 }
 .contents {
   text-align: left;
+  margin-top:50px;
 }
 
 /* Custom default button */
@@ -166,11 +167,11 @@ color: #888;
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    position: relative;
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    position: relative;
     bottom: 0;
   }
   /* Start the vertical centering */
